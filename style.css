@@ -1,0 +1,138 @@
+body {
+    background-color: #6A7885;
+}
+
+#LoginForm {
+    border-radius: 18%;
+    box-shadow: 2px 2px 4px #000000;
+    background-color: #AFAFB1;
+    width: 380px;
+    height: 400px;
+    float: left;
+    margin-top: 6%;
+    margin-left: 24%;
+}
+
+#LoginForm input {
+    display: block;
+}
+
+#LoginForm #section {
+    padding: 13%;
+}
+
+#LoginForm #section #email,
+#LoginForm #section #password {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#LoginForm #section #email input,
+#LoginForm #section #password input {
+    margin-top: 1%;
+    text-align: center;
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+#LoginForm #section #email input:focus,
+#LoginForm #section #password input:focus {
+    outline: 2px solid #000000;
+}
+
+#LoginForm #section #email {
+
+    margin-top: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#LoginForm #section #password {
+
+    margin-top: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#LoginForm #section button {
+    margin-top: 8%;
+    margin-left: 25%;
+    height: 30px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 120px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+#registerForm {
+    border-radius: 18%;
+    box-shadow: 2px 2px 4px #000000;
+    background-color: #EAD3CD;
+    width: 380px;
+    height: 450px;
+    float: right;
+    margin-top: 6%;
+    margin-right: 24%;
+}
+
+#registerForm input {
+    display: block;
+}
+
+#registerForm #section {
+    padding: 13%;
+}
+
+#registerForm #section #fn,
+#registerForm #section #ln {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#registerForm #section #fn input,
+#registerForm #section #ln input,
+#registerForm #section #email input,
+#registerForm #section #password input {
+    margin-top: 1%;
+    text-align: center;
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+#registerForm #section #fn input:focus,
+#registerForm #section #ln input:focus,
+#registerForm #section #email input:focus,
+#registerForm #section #password input:focus {
+    outline: 2px solid darkred;
+}
+
+#registerForm #section #ln {
+    margin-top: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#registerForm #section #email {
+
+    margin-top: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#registerForm #section #password {
+
+    margin-top: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#registerForm #section button {
+    margin-top: 8%;
+    margin-left: 25%;
+    height: 30px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 120px;
+    border-radius: 2px;
+    font-weight: bold;
+}
